@@ -20,7 +20,7 @@ h1 {
     font-size: 85px;
     text-transform: uppercase;
     color: #1C3144;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 
 h2 {
@@ -151,6 +151,10 @@ section, header, article {
     margin-bottom: 50px;
 }
 
+#termOne {
+    margin-left: 20px; /* Adjust the value as needed */
+    margin-right: 20px;
+}
 
 main {
     flex: 1; /* This means the main content area will take up the remaining space after the sidebar. */
