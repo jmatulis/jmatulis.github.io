@@ -107,12 +107,6 @@ img {
     object-fit: cover;
 }
 
-#experience-div img {
-    width: 45%; /* Adjust the size of the image grids as needed */
-    margin: 2.5%;
-    float: left;
-}
-
 img {
     max-width: 100%;
     margin: 20px auto;
@@ -147,9 +141,6 @@ section, header, article {
     margin-bottom: 10px; /* Spacing between list items */
 }
 
-#experience-intro{
-    margin-bottom: 50px;
-}
 
 #termOne {
     margin-left: 20px; /* Adjust the value as needed */
@@ -172,4 +163,56 @@ main img {
     justify-content: center; /* This centers the images horizontally */
     align-items: center; /* This centers the images vertically */
     gap: 20px; /* This adds spacing between the images */
+}
+
+
+.workterm-links-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.workterm-links-horizontal li {
+    float: left;
+}
+
+.workterm-links-horizontal li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.workterm-links-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05); /* Consistent background */
+}
+
+.workterm-links-horizontal li {
+    float: left;
+}
+
+.workterm-links-horizontal li a {
+    display: block;
+    text-align: center;
+    padding: 15px 25px; /* Consistent padding */
+    text-decoration: none;
+    font-family: 'Muli', sans-serif; /* Consistent font */
+    font-size: 25px; /* Consistent font size */
+    color: #ffffff; /* Consistent text color */
+    transition: 0.3s; /* Smooth transition for hover */
+}
+
+.workterm-links-horizontal li a:hover {
+    background-color: #151515; /* Hover effect */
+    color: #ffffff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Consistent hover effect */
+}
+
+#w2 {
+    margin-right: 0;
 }
