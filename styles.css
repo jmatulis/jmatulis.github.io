@@ -107,6 +107,21 @@ img {
     object-fit: cover;
 }
 
+.image-row {
+    display: flex;
+    justify-content: space-between; /* Adjust the spacing between the images */
+    align-items: center; /* Align images vertically in the center */
+    flex-wrap: wrap; /* If screen size is small, allow the images to wrap to the next line */
+    gap: 20px; /* Adds spacing between the images */
+    margin: 20px 0; /* Adds some space above and below the row */
+}
+
+.image-row img {
+    max-width: 48%; /* Each image will take up 48% of the width of the container */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 img {
     max-width: 100%;
     margin: 20px auto;
@@ -216,3 +231,4 @@ main img {
 #w2 {
     margin-right: 0;
 }
+
